@@ -8,6 +8,8 @@ filetype plugin indent on
 colorscheme molokai
 " autoindent
 set autoindent
+set tabstop=2
+set shiftwidth=2
 " show line and columns
 set ruler
 " dont expand tabs
