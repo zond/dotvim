@@ -2,14 +2,16 @@
 execute pathogen#infect()
 " syntax
 syntax on
+" file type detection
 filetype plugin indent on
 " molokai
 colorscheme molokai
-" indent
+" autoindent
 set autoindent
+" show line and columns
 set ruler
+" dont expand tabs
 set noet
-set nolist
 " encoding
 set enc=utf-8
 " search
