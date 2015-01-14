@@ -8,8 +8,6 @@ colorscheme molokai
 " indent
 set autoindent
 set ruler
-set tabstop=2
-set shiftwidth=2
 set noet
 set nolist
 " encoding
