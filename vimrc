@@ -25,8 +25,6 @@ set ignorecase
 let g:go_fmt_command = "goimports"
 " backspace in insert mode
 set backspace=indent,eol,start
-" wrapping
-set whichwrap+=<,>,h,l,[,]
 " tab completion
 set wildmode=longest,list,full
 set wildmenu
@@ -46,3 +44,5 @@ nmap <silent> <tab> ==
 imap <silent> <tab> <esc>==i
 " no preview for omnicomplete
 set completeopt=menu
+" wrapping
+set whichwrap+=<,>,h,l,[,]
